@@ -1,0 +1,298 @@
+
+body{
+    background-color: #ffffff;
+    background-image: url(shh3.png);
+    background-repeat: no-repeat;
+    background-position: 50% 78%;
+    background-attachment: fixed;
+    background-size:250px 300px ;  
+}
+.container-1{
+    background-color: rgb(0, 40, 150);
+    overflow: hidden;  
+}
+.container-2{
+    border-bottom: 2px solid black;
+    background-color: rgb(0, 40, 150); 
+    box-shadow: 0px 8px 10px 2px rgb(63, 63, 63) ;
+    position: relative;
+    transition: 0.8s ;
+}
+.container{
+    background-color:#ffff;
+    width:400px;
+    height: 580px;
+    box-shadow: 20px 20px 50px 8px rgb(44, 44, 44) ;
+    position: center;
+    margin: 10% auto;
+    overflow: hidden;
+    box-shadow: 20px 20px 50px 8px rgb(44, 44, 44) ;
+    border-bottom-right-radius: 15px;  
+    border-top-right-radius: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 5px;
+    transition: 0.5s;
+}
+#vs,#vb{
+    height: 300px;
+    width: 400px;
+    margin: 8% auto;
+    overflow: hidden;
+    box-shadow: 20px 20px 50px 8px rgb(44, 44, 44) ;
+    border-bottom-right-radius: 15px;  
+    border-top-right-radius: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 5px;
+}
+#vb{
+height:200px;
+}
+.hb{
+    margin-top:10px;
+}
+#vp,#vq{
+height:200px;
+}
+#vbbut{
+    width: 150px;
+left: 120px;
+}
+
+#ib{
+    height: 520px;
+    width: 400px;
+    margin: 8% auto;
+    overflow: hidden;
+    box-shadow: 20px 20px 50px 8px rgb(44, 44, 44) ;
+    border-bottom-right-radius: 15px;  
+    border-top-right-radius: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 5px;
+}#ar{
+    height: 380px;
+    width: 400px;
+    margin: 8% auto;
+    overflow: hidden;
+    box-shadow: 20px 20px 50px 8px rgb(44, 44, 44) ;
+    border-bottom-right-radius: 15px;  
+    border-top-right-radius: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 5px;
+}
+h2{
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 70px;
+    color: #ffffff;
+}
+h3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+}
+h4{
+    text-align: center;
+    background-color: rgb(0, 255, 38);
+    font-weight: 600;
+    height: 50px;
+    padding: 10px;
+}
+h5{
+    color: #ffffff;   
+}
+h6{
+    text-align: center;
+    color: #ffffff;
+}
+.btn{
+    border-color: transparent;
+    background-color: transparent;
+    padding-left:20px ;
+    padding-right:20px ;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.butn{
+    padding-bottom: 50px;
+    height: 40px;
+    width: 100px;
+    position: relative;
+    left: 140px;
+    top: 20px;
+    background-color: rgb(3, 50, 179);
+    border-bottom-right-radius: 5px;  
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+cursor: pointer;
+}
+.fab{
+    margin-top:8px;
+}
+.dash{
+    text-align: center;
+    font-size: 30px;
+    left: 90%;
+    border: 1px solid black;
+    top: 100px;
+    position:absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color:rgb(0, 18, 221) ;     
+    box-shadow: 7px -7px 30px 0px rgb(255,255,255) ;
+}
+.dash1{
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+    position:absolute;
+    height: 100px;
+    width: 40px;
+    border-bottom-right-radius: 50px;
+    background-color:rgb(0, 18, 221) ;
+   
+}
+.add{
+    width: 80% ;
+    padding: 14px 2px;
+    margin-left: 32px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    border: 0;
+    text-align: center;
+    border-bottom: 1px solid rgb(118, 118, 118);
+    background: transparent;
+    color: rgb(0, 7, 5);
+    font-size:24px;
+    box-shadow: 5px 5px 20px 2px rgb(113, 113, 113) ;
+    border-bottom-right-radius: 15px;  
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.add::placeholder{
+    color: rgb(2, 29, 104);
+    text-align: center;
+}
+select{
+    text-align: center;
+    overflow: hidden;    
+}
+#se{
+    color: rgb(2, 29, 104);
+}
+ul{
+    display:block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+li{
+    float: right;
+    color: #ffffff;
+}
+li button:hover{
+    background-color:  rgb(2, 29, 104);
+    transition: 0.5s;
+    
+}
+.butn:hover{
+    background-color:  rgb(0, 0, 82);
+}
+    
+.dash:hover ,.dash1:hover{
+    background-color: rgb(2,29,104);
+    box-shadow: 12px -12px 30px 0px rgb(255,255,255) ;
+color: #ffffff;}
+
+.add.date{
+content: '';
+}
+table{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 5px 5px 20px 2px rgb(113, 113, 113) ;
+    align-items: center;
+    font-weight: 700;
+    position: absolute;
+    left: 100px;
+    border-radius: 15px;
+}
+.table1{
+    border-radius: 15px;
+    position: absolute;
+    left: 10%;
+    margin-top:10%;
+}
+th{
+    background-color:rgb(0, 40, 150) ;
+    width: 140px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family:'Times New Roman';
+}
+td{
+    box-shadow: 4px 4px 10px 2px rgb(113, 113, 113) ;
+    border: none;
+    
+    text-align: center;
+}
+.t1{
+    width: 200px;
+}
+.table2{
+    border-radius: 15px;
+    position: absolute;
+    left: 20%;
+    margin-top: 23%;
+}
+tr{
+    box-shadow: 4px 4px 10px 2px rgb(113, 113, 113) ;
+    font-family: 'times new roman';
+    color: rgb(0, 0, 0);
+    height: 50px;
+    align-items: center;
+}
+tr:nth-child(odd){
+    background-color: rgb(47, 102, 255);
+    color: #000000;
+}
+tr:nth-child(even){
+    background-color: rgb(255, 255, 255);
+}
+.container-4{
+    border-bottom: 2px solid black;
+    background-color: rgb(0, 40, 150); 
+    box-shadow: 0px 8px 10px 2px rgb(63, 63, 63) ;
+    position: relative;
+    height: 15%;
+}
+h7{
+    margin-top: 10px;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 20px;
+    color: #ffffff;
+    position: absolute;
+}
+#name,.homeb{
+    position: absolute;
+    margin-top: -13vh;
+    right: 4vw;
+    color:#ffffff;
+    font-size: 30px;
+}
+.homeb{
+    margin-top: -15vh;
+    right:0vw;
+    font-size: 35px;
+    width:4vw;
+    padding:5px;
+}
+.homeb:hover{
+    background-color:  rgb(0, 0, 82);
+}
