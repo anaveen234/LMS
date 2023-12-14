@@ -1,3 +1,5 @@
+//THIS IS THE PHP FILE WHERE THE PROCESSING OF THE DATA TAKES PLACE
+//THIS IS APPLICABLE FOR BOTH STUDENT DASHBOARD(sdash.php) AND ADMIN DASHBOARD(dashboard.php)
 <?php ob_start();
 $server='localhost';
 $name='username of your phpmyadmin';
