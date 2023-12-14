@@ -1,3 +1,4 @@
+//THIS IS THE PHP PAGE FOR AUTHENTICATING USER(both student and admin) CREDENTIALS
 <?php ob_start();
 session_start();
 $host='localhost';
